@@ -36,10 +36,14 @@ for (let sqr of numbers){
     console.log(Math.pow(sqr,2))
 }
 
+console.log('--------------------------------------')
+
 //write a for of loop to get the sqr of the array
 
 let mysquare = [9,12,31]
+
 for (let sqr of mysquare){
     console.log(Math.pow(sqr,2))
 }
+console.log(`the numbers I squared are ${mysquare}`)
 
